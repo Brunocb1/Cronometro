@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mina", sans-serif;
+}
+
+body {
+    background-image: url(./assets/windows-11-stock-official-colorful-2732x2732-5658.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    margin: 100px 0 0 370px;
+    width: 550px;
+    height: 700px;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(120, 252, 245);
+    margin-top: -280px;
+    margin-left: 690px;
+}
+
+button {
+    position: relative;
+    right: -430px;
+    top: 30px;
+    width: 100px;
+    height: 45px;
+    border: 5px solid rgb(255, 233, 109);
+    border-radius: 6px;
+    margin-right: 20px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(109, 248, 241);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
